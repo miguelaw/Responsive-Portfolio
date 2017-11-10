@@ -1,0 +1,510 @@
+body
+{
+	font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+    background-image: url("../images/intersection.png");
+    background-color: #ffffff;
+    margin: 0px;
+}
+
+header
+{
+    background-color: #ffffff;
+	border-top: 2px solid #cccccc;
+    padding-bottom: 78px;
+    border-bottom: 2px solid grey;
+    width: 100%;
+}
+
+#button2
+{
+    display: inline-block;
+    color: #777777;
+    background-color: transparent;
+    width: 100%;
+    border: none;   
+}
+
+#button3
+{
+    display: inline-block;
+    color: #777777;
+    background-color: transparent;
+    width: 100%;
+    border: none;   
+}
+
+#button4
+{
+    display: inline-block;
+    color: #777777;
+    background-color: transparent;
+    width: 100%;
+    border: none;   
+}
+
+p
+{
+    margin: 10px;
+    padding: 10px;
+}
+
+a:hover { 
+    background-color: #4aaaa5;
+    color: black;
+    border: 2px solid #777777;
+}
+
+#Header1, #main 
+{
+	width: 960px;
+    margin: 0 auto;
+}
+
+#leftheader
+{
+    float: left;
+    background-color: #4aaaa5;
+    color: white;
+    padding: 5px;
+    text-align: center;
+    width: 25%;
+}
+
+#rightheader
+{
+    float: right;
+    background-color: #ffffff;
+    color: #777777;
+    padding: 11px;
+    text-align: center;
+    width: 270px;
+    margin: auto;
+}
+
+#rightheader li{
+	display: inline-block;
+    margin: 0px;
+}
+
+#main
+{
+    clear: both;
+    margin-bottom: 430px;
+    margin-top: 25px;
+    padding-bottom: 25px;
+}
+
+h2
+{
+    color: #4aaaa5;
+    border-bottom: 2px solid #dddddd;
+    padding-left: 20px;
+    padding-bottom: 15px;
+    display: block;
+}
+
+h3
+{
+    color: #4aaaa5;
+    border-bottom: 2px solid #dddddd;
+    padding: 12px;
+    display: block;
+}
+
+#left
+{
+    width: 650px;
+    margin: 0 auto;
+    /* margin-bottom: 25px; */
+    background-color: #ffffff;
+    color: #777777;
+    border: 2px solid #dddddd;
+    padding: 5px;
+    float: left;
+}
+
+#bio-image
+{
+    width:100px; 
+    height:180px;
+    float: left;
+    margin: 20px;
+}
+
+#right
+{
+    width: 270px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    color:#777777;
+    border: 2px solid #dddddd;
+    text-align: center;
+    padding: -50px;
+    float: right;
+}
+
+#right li
+{
+    display: inline-block;
+    margin: 5px;
+    padding: 0px;
+}
+
+#rightcont
+{
+    padding-left: 15px;
+    margin-left: 0px;
+    width: 75%;
+}
+
+input
+{
+    width: 90%;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+textarea
+{
+    width: 90%;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+#button1
+{
+    display: inline-block;
+    color: white;
+    background-color: teal;
+    width: 20%;
+}
+
+#leftcontact
+{
+    padding: 5px;
+    width: 650px;
+    margin: 0 auto; 
+    margin-bottom: 25px;
+    background-color: #ffffff;
+    color: #777777;
+    border: 2px solid #dddddd;
+    float: left;
+}
+
+#leftPortfolio
+{
+    padding: 5px;
+    width: 650px;
+    margin: 0 auto;
+    margin-bottom: 25px;
+    background-color: #ffffff;
+    color: #777777;
+    border: 2px solid #dddddd;
+    float: left;  
+}
+
+h4
+{
+    background-color: #4aaaa5;
+    color: white;
+    font-family: 'Times New Roman';
+    padding: 10px;
+    text-align: center;
+    width: 28%;  
+}
+
+.titleB
+{
+    height: 0px;
+    position: relative;
+    top: -75px;
+}
+
+#img-1
+{
+    float: left;
+    margin-left: 70px;
+    margin-right: 25px;
+    margin-bottom: 25px;
+}
+
+#img1, #img2, #img3, #img4, #img5
+{
+    width: 200px;
+    height: 200px;
+}
+
+#img-2
+{
+    float: left;
+    margin-left: 50px;
+    margin-right: 25px;
+    margin-bottom: 25px;
+}
+
+#img-3
+{
+    clear: both;
+    float: left;
+    margin-left: 70px;
+    margin-right: 25px;
+    margin-bottom: 25px;
+}
+
+#img-4
+{
+    float: left;
+    margin-left: 50px;
+    margin-right: 25px;
+    margin-bottom: 25px;
+}
+
+#img-5
+{
+    clear: both;
+    float: left;
+    margin-left: 70px;
+    margin-right: 25px;
+    margin-bottom: 25px;
+}
+
+.Title1
+{
+    width: 180px;
+}
+
+footer
+{
+    clear: both;
+    padding: 10px;
+    position: sticky;
+    bottom: 0;
+    z-index: -1;
+    background-color: #666666;
+    border-top: 5px solid teal;
+    text-align: center;
+    color: #cccccc;
+    margin-top: 25px;
+}
+
+/* Width at 980px and below */
+@media screen and (max-width: 980px) {
+    body {
+      background-color: #ffffff;
+      background-image: url("../images/intersection.png");
+    }
+
+    header, #Header1, #main, footer
+    {
+        width: 100%;
+        padding: 0px;
+        width: 100%;
+        margin-bottom: 0;
+    }
+
+    footer
+    {
+        padding: 1%;
+    }
+
+    header
+    {
+        padding-bottom: 78px;
+    }
+
+    #leftheader
+    {
+        margin-left: 65px;
+    }
+
+    #rightheader
+    {
+        margin-right: 18px;
+    }
+
+    #main
+    {
+        width: 88%;
+        height: 620px;
+    }
+
+    #left, #leftcontact
+    {
+        width: 64%;
+        margin-bottom: 3%;
+    }
+
+    #leftcontact p
+    {
+        text-align: left;
+        padding: 5% 0 1% 9%;
+    }
+
+    #leftcontact form
+    {
+        width: 93%;
+        padding: 1% 0 0 1%;
+    }
+
+    #leftPortfolio
+    {
+        width: 40%;
+        margin-bottom: 3%;
+        height: auto;
+    }
+
+    #img-2, #img-4
+    {
+        margin-left: 20%;
+    }
+
+    #left1, #left2, #right1
+    {
+        display: block;
+        float: none;
+        margin: 0 auto;
+    }
+
+    #ttl1, #ttl2, #ttl3
+    {
+        display: block;
+    }
+
+    p
+    {
+        text-align: center;
+    }
+
+
+    /* Width at 768px and below */
+@media screen and (max-width: 768px) {
+    body {
+      background-color: #ffffff;
+      background-image: url("../images/intersection.png");
+      width: 100%;
+      height: 100%;
+    }
+
+    #main, header, #Header1, footer
+    {
+        width: 100%;
+        margin-bottom: 0;
+    }
+
+    header
+    {
+        padding-bottom: 78px;
+    }
+
+    #leftheader
+    {
+        margin-left: 10px;
+    }
+
+    #left, #right, #leftcontact, #leftPortfolio
+    {
+        float: none;
+        width: 95%;
+    }
+
+    #leftcontact form
+    {
+        width: 97%;
+    }
+
+    #leftcontact p
+    {
+        text-align: left;
+        padding: 0% 1% 1% 1%;
+    }
+
+    #left, #leftcontact, #leftPortfolio
+    {
+        margin-bottom: 3%;
+    }
+
+    #leftPortfolio
+    {
+        height: 135%;
+        margin-bottom: 3%;
+    }
+
+    p
+    {
+        text-align: center;
+    }
+
+    /* Width at 640px and below */
+@media screen and (max-width: 640px) {
+    body {
+      background-color: #ffffff;
+      background-image: url("../images/intersection.png");
+    }
+
+    header
+    {
+            padding-bottom: 0%;
+    }
+
+    #main, header, #Header1, footer
+    {
+        width: 100%;
+        margin-bottom: 0;
+    }
+
+    #rightheader
+    {
+		float: none;
+        width: 96%;
+        margin: 0%;
+    }
+
+    #rightheader li
+    {
+        text-align: center;
+        padding-left: 3%;
+    }
+    
+    #leftheader
+    {
+        float: none;
+        width: 99%;
+        text-align: center;
+        margin: 0%;
+    }
+
+    #left, #right, #leftcontact, #leftPortfolio
+    {
+        float: none;
+        width: 90%;
+    }
+
+    #leftcontact p
+    {
+        padding: 1% 1% 1% 2%;
+    }
+
+    #left
+    {
+        margin-bottom: 3%;
+    }
+
+    p
+    {
+        text-align: center;
+    }
+
+    #leftPortfolio
+    {
+        height: 212%;
+    }
+
+    #img-1, #img-3, #img-5
+    {
+        margin-left: 30%;
+    }
+
+    #img-2, #img-4
+    {
+        margin-left: 30%;
+    }
